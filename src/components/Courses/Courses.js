@@ -8,7 +8,7 @@ const Courses = ({courseData}) => {
                 <img src={logo}/>
                 <p>Name: {name}</p>
                 <p>Total: {total}</p> 
-                <Link to={`/courseData/&{id}`}><button>Show</button></Link>      
+                <Link to={`/course/&{id}`}><button>Show</button></Link>      
         </div>
     );
 };

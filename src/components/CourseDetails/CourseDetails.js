@@ -4,15 +4,19 @@ import Question from '../Question/Question';
 
 const CourseDetails = () => {
     const course = useLoaderData();
-    const quesData = course.data.questions;
+    const queData = course;
+    // const questionsData = queData.questions;
     return (
         <div>
             <h2>This is Course Details</h2>
             {
-                quesData.map(queData => <Question queData = {queData}></Question>)
+                
+                
             }
         </div>
     );
 };
 
 export default CourseDetails;
+
+// questionsData.map(questionData => <Question questionData={questionData}></Question>)

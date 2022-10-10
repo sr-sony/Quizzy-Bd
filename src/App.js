@@ -25,10 +25,10 @@ function App() {
           element:<Statistics></Statistics>
         },
         {
-          path:'/Course/:courseId',
+          path:'/course/:courseId',
           element:<CourseDetails></CourseDetails>,
           loader: async (params) => {
-            return fetch('https://openapi.programming-hero.com/api/quiz/{params.courseid}')
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.courseId}`)
           }
         },
         {

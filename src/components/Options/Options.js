@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Options = () => {
+const Options = ({option}) => {
     return (
         <div>
-            <p>This is options</p>
+            <input type="radio" name="option" id="html"></input>
+            <label for="html">{option}</label>
         </div>
     );
 };

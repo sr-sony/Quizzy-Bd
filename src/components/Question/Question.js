@@ -7,7 +7,7 @@ const Question = ({queData}) => {
         <div>
             <p>This is question</p>
             {
-                queData.map(option => <Options option={option}></Options>)
+                options.map(option => <Options option={option}></Options>)
             }
         </div>
     );
