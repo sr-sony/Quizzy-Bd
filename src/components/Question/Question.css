@@ -1,0 +1,22 @@
+.question-container span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.question-container button{
+    border: none;
+    background-color: #3F0071;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.question-container button:hover{
+    cursor: pointer;
+}
+
+.option{
+    margin-bottom: 10px;
+}
