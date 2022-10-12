@@ -30,7 +30,10 @@ function App() {
         },
         {
           path:'/statistics',
-          element:<Statistics></Statistics>
+          element:<Statistics></Statistics>,
+          loader: () => {
+            return fetch('https://openapi.programming-hero.com/api/quiz')
+          }
         },
         {
           path:'/course/:courseId',

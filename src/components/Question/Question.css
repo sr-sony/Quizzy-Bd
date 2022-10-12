@@ -3,7 +3,7 @@
     font-weight: bold;
 }
 
-.question-container button{
+.icon{
     border: none;
     background-color: #3F0071;
     color: white;
@@ -13,8 +13,16 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.question-container button:hover{
+.icon:hover{
     cursor: pointer;
+}
+
+.option-container{
+    background-color: #F9F5EB;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+    padding: 20px 40px;
 }
 
 .option{

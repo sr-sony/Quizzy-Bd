@@ -1,4 +1,5 @@
 import React from 'react';
+import './Option.css';
 
 const Options = ({option, id, optionHandler}) => {
 
@@ -8,7 +9,7 @@ const Options = ({option, id, optionHandler}) => {
         optionHandler(selectData);
     }
     return (
-        <div>
+        <div className='option-container'>
             <input type="radio" name="selectData" id="option" value={option} onClick={optionCheckingHandler}></input>
             <label for="selectData">{option}</label>
         </div>
