@@ -5,7 +5,7 @@ const Courses = ({courseData}) => {
     const {name, logo, id, total} = courseData;
     return (
         <div className='course-container'>       
-                <img src={logo}/>
+                <img src={logo} alt=""/>
                 <p>Name: {name}</p>
                 <p>Total: {total}</p> 
                 <Link to={`/course/&{id}`}><button>Show</button></Link>      
