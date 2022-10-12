@@ -5,13 +5,13 @@ import Question from '../Question/Question';
 const CourseDetails = () => {
     const course = useLoaderData();
     // const queData = course;
-    // const questionsData = queData.questions;
-    const questionsData = course.data.questions;
+    // const coursesData = queData.questions;
+    const coursesData = course.data.questions;
     return (
         <div>
             <h2>This is Course Details</h2>
             {
-                questionsData.map(questionData => <Question key={questionData.id} questionData={questionData}></Question>)
+                coursesData.map(courseData => <Question key={courseData.id} courseData={courseData}></Question>)
             }
         </div>
     );
@@ -19,4 +19,4 @@ const CourseDetails = () => {
 
 export default CourseDetails;
 
-// questionsData.map(questionData => <Question questionData={questionData}></Question>)
+// coursesData.map(courseData => <Question courseData={courseData}></Question>)

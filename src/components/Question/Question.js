@@ -1,8 +1,8 @@
 import React from 'react';
 import Options from '../Options/Options';
 
-const Question = ({questionData}) => {
-    const {question,options,correctAnswer,id} = questionData;
+const Question = ({courseData}) => {
+    const {question,options,correctAnswer,id} = courseData;
 
     const ansHandler = (correctAnswer) => {
         alert(correctAnswer);
